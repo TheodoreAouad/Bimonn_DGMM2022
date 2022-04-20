@@ -192,7 +192,7 @@ def main(args, logger):
         # progress_bar_refresh_rate=10,
         callbacks=observables.copy(),
         log_every_n_steps=10,
-        deterministic=True,
+        # deterministic=True,
         num_sanity_val_steps=1,
     )
 
@@ -221,7 +221,8 @@ if __name__ == '__main__':
 
     for args_idx, args in enumerate(all_args):
 
-        name = join(args["experiment_name"], args['experiment_subname'])
+        # name = join(args["experiment_name"], args['experiment_subname'])
+        name = args["experiment_name"]
 
         # name += f"_{args['atomic_element']}"
 

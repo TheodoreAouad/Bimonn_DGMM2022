@@ -1,3 +1,9 @@
+""" File to launch the bibliography comparison. We describe the config for the LMorph and SMorph.
+The studied morphological operation are defined in `biblio_comparison/args_morp_ops_diskorect.py` and
+`biblio_comparison/args_morp_ops_mnist.py`.
+You can change the values for each argument. You must also choose the dataset and model to train on.
+"""
+
 import torch.nn as nn
 import torch.optim as optim
 
@@ -5,7 +11,6 @@ from deep_morpho.datasets.generate_forms3 import get_random_diskorect_channels
 from general.utils import dict_cross
 from .args_morp_ops_mnist import morp_operations as morp_operations_mnist
 from .args_morp_ops_diskorect import morp_operations as morp_operations_diskorect
-# from .lightning_models import LightningLMorph, LightningSMorph, LightningAdaptativeMorphologicalLayer
 
 
 all_args = {}
@@ -46,8 +51,6 @@ all_args['random_gen_args'] = [
 
 all_args['n_inputs'] = [
     1_000_000,
-    # 100_000,
-    # 70000,
 ]
 all_args['train_test_split'] = [(1, 1, 0)]
 
@@ -57,17 +60,12 @@ all_args['train_test_split'] = [(1, 1, 0)]
 all_args['loss'] = [nn.MSELoss()]
 all_args['num_workers'] = [
     20,
-    # 0,
 ]
 all_args['freq_imgs'] = [300]
 all_args['n_epochs'] = [20]
 
 
 # MODEL ARGS
-# all_args['n_atoms'] = [
-#     # 'adapt',
-#     4,
-# ]
 all_args['kernel_size'] = [
     # 7,
     "adapt",
@@ -78,22 +76,31 @@ all_args['kernel_size'] = [
 ##################
 
 all_args['model'] = [
-    # "lmorph",
+    "lmorph",
     "smorph",
 ]
 all_args['optimizer'] = [optim.Adam]
 all_args['batch_size'] = [256]
 all_args['learning_rate'] = [1e-3*2]
 
+all_args_lsmorph = []
+
+# Uncomment to try on diskorect
+all_args_lsmorph += dict_cross(dict(**all_args, **{'dataset_type': ["diskorect"], "morp_operation": morp_operations_diskorect}))
+
 all_args['mnist_args'] = [
     {"threshold": 30, "size": (50, 50), "invert_input_proba": 0}
 ]
+# Uncomment to try on mnist
+all_args_lsmorph += dict_cross(dict(**all_args, **{'dataset_type': ["mnist"], "morp_operation": morp_operations_mnist}))
 
-all_args_lsmorph = (
-    # dict_cross(dict(**all_args, **{'dataset_type': ["diskorect"], "morp_operation": morp_operations_diskorect})) +
-    dict_cross(dict(**all_args, **{'dataset_type': ["mnist"], "morp_operation": morp_operations_mnist})) +
-    []
-)
+
+all_args['mnist_args'] = [
+    {"threshold": 30, "size": (50, 50), "invert_input_proba": 1}
+]
+# Uncomment to try on inverted_mnist
+all_args_lsmorph += dict_cross(dict(**all_args, **{'dataset_type': ["mnist"], "morp_operation": morp_operations_mnist}))
+
 
 ##############
 # Adaptative #
@@ -112,13 +119,13 @@ all_args_adaptative = (
     []
 )
 
-###########
-# DATASET #
-###########
+
+### End of editable zone ###
+
 
 all_args = (
     all_args_lsmorph +
-    # all_args_adaptative +  # We do not launch adaptative as ew did not manage to make it converge.
+    # all_args_adaptative +  # We do not launch adaptative as we did not manage to make it converge.
     []
 )
 

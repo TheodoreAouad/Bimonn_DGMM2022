@@ -2,7 +2,6 @@ from typing import Tuple
 
 import numpy as np
 from PIL import Image, ImageDraw
-from numba import njit
 from general.utils import set_borders_to
 
 
@@ -48,7 +47,7 @@ def draw_ellipse(draw, center, radius, fill_value=1):
 
 def get_random_rotated_diskorect(
     size: Tuple, n_shapes: int = 30, max_shape: Tuple[int] = (15, 15), p_invert: float = 0.5,
-        border=(4, 4), n_holes: int = 15, max_shape_holes: Tuple[int] = (5, 5), noise_proba=0.05, 
+        border=(4, 4), n_holes: int = 15, max_shape_holes: Tuple[int] = (5, 5), noise_proba=0.05,
         rng_float=np.random.rand, rng_int=np.random.randint, **kwargs
 ):
     diskorect = np.zeros(size)
