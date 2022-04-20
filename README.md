@@ -43,7 +43,7 @@ First choose which configuration in the `biblio_comparison/args.py` file. You ca
 >python deep_morpho/biblio_comparison.py
 
 The same experiment folder as the bimonn will be created.
-<img src="./images/diskorect_closing_disk1.png"></img>
+
 # Obtained results
 
 <table>
@@ -69,32 +69,32 @@ The same experiment folder as the bimonn will be created.
     </tr>
     <tr>
         <td>Target</td>
-        <td><img src="./images/true_disk7.png"></img></td><td><img src="./images/true_hstick7.png"></img></td><td><img src="./images/true_dcross7.png"></img></td>
-        <td><img src="./images/true_disk7.png"></img></td><td><img src="./images/true_hstick7.png"></img></td><td><img src="./images/true_dcross7.png"></img></td>
-        <td><img src="./images/true_disk7.png"></img></td><td><img src="./images/true_hstick7.png"></img></td><td><img src="./images/true_dcross7.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/true_disk7.png"></img></td><td><img src="./images/weights_png/dgmm_2022/true_hstick7.png"></img></td><td><img src="./images/weights_png/dgmm_2022/true_dcross7.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/true_disk7.png"></img></td><td><img src="./images/weights_png/dgmm_2022/true_hstick7.png"></img></td><td><img src="./images/weights_png/dgmm_2022/true_dcross7.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/true_disk7.png"></img></td><td><img src="./images/weights_png/dgmm_2022/true_hstick7.png"></img></td><td><img src="./images/weights_png/dgmm_2022/true_dcross7.png"></img></td>
     </tr>
     <tr>
         <td>dilation</td>
-        <td><img src="./images/diskorect_dilation_disk.png"></img></td><td><img src="./images/diskorect_dilation_hstick.png"></img></td><td><img src="./images/diskorect_dilation_dcross.png"></img></td>
-        <td><img src="./images/mnist_dilation_disk.png"></img></td><td><img src="./images/mnist_dilation_hstick.png"></img></td><td><img src="./images/mnist_dilation_dcross.png"></img></td>
-        <td><img src="./images/inverted_mnist_dilation_disk.png"></img></td><td><img src="./images/inverted_mnist_dilation_hstick.png"></img></td><td><img src="./images/inverted_mnist_dilation_dcross.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/diskorect_dilation_disk.png"></img></td><td><img src="./images/weights_png/dgmm_2022/diskorect_dilation_hstick.png"></img></td><td><img src="./images/weights_png/dgmm_2022/diskorect_dilation_dcross.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/mnist_dilation_disk.png"></img></td><td><img src="./images/weights_png/dgmm_2022/mnist_dilation_hstick.png"></img></td><td><img src="./images/weights_png/dgmm_2022/mnist_dilation_dcross.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/inverted_mnist_dilation_disk.png"></img></td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_dilation_hstick.png"></img></td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_dilation_dcross.png"></img></td>
     </tr>
     <tr>
         <td>erosion</td>
-        <td><img src="./images/diskorect_erosion_disk.png"></img></td><td><img src="./images/diskorect_erosion_hstick.png"></img></td><td><img src="./images/diskorect_erosion_dcross.png"></img></td>
-        <td><img src="./images/mnist_erosion_disk.png"></img></td><td><img src="./images/mnist_erosion_hstick.png"></img></td><td><img src="./images/mnist_erosion_dcross.png"></img></td>
-        <td><img src="./images/inverted_mnist_erosion_disk.png"></img></td><td><img src="./images/inverted_mnist_erosion_hstick.png"></img></td><td><img src="./images/inverted_mnist_erosion_dcross.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/diskorect_erosion_disk.png"></img></td><td><img src="./images/weights_png/dgmm_2022/diskorect_erosion_hstick.png"></img></td><td><img src="./images/weights_png/dgmm_2022/diskorect_erosion_dcross.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/mnist_erosion_disk.png"></img></td><td><img src="./images/weights_png/dgmm_2022/mnist_erosion_hstick.png"></img></td><td><img src="./images/weights_png/dgmm_2022/mnist_erosion_dcross.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/inverted_mnist_erosion_disk.png"></img></td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_erosion_hstick.png"></img></td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_erosion_dcross.png"></img></td>
     </tr>
     <tr>
         <td>opening</td>
-        <td><img src="./images/diskorect_opening_disk1.png"></img><img src="./images/diskorect_opening_disk2.png"></img></td><td><img src="./images/diskorect_opening_hstick1.png"></img><img src="./images/diskorect_opening_hstick2.png"></img></td><td><img src="./images/diskorect_opening_dcross1.png"></img><img src="./images/diskorect_opening_dcross2.png"></img></td>
-        <td><img src="./images/mnist_opening_disk1.png"></img><img src="./images/mnist_opening_disk2.png"></img></td><td><img src="./images/mnist_opening_hstick1.png"></img><img src="./images/mnist_opening_hstick2.png"></img></td><td><img src="./images/mnist_opening_dcross1.png"></img><img src="./images/mnist_opening_dcross2.png"></img></td>
-        <td><img src="./images/inverted_mnist_opening_disk1.png"></img><img src="./images/inverted_mnist_opening_disk2.png"></img></td><td><img src="./images/inverted_mnist_opening_hstick1.png"></img><img src="./images/inverted_mnist_opening_hstick2.png"></img></td><td><img src="./images/inverted_mnist_opening_dcross1.png"></img><img src="./images/inverted_mnist_opening_dcross2.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/diskorect_opening_disk1.png"></img><img src="./images/weights_png/dgmm_2022/diskorect_opening_disk2.png"></img></td><td><img src="./images/weights_png/dgmm_2022/diskorect_opening_hstick1.png"></img><img src="./images/weights_png/dgmm_2022/diskorect_opening_hstick2.png"></img></td><td><img src="./images/weights_png/dgmm_2022/diskorect_opening_dcross1.png"></img><img src="./images/weights_png/dgmm_2022/diskorect_opening_dcross2.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/mnist_opening_disk1.png"></img><img src="./images/weights_png/dgmm_2022/mnist_opening_disk2.png"></img></td><td><img src="./images/weights_png/dgmm_2022/mnist_opening_hstick1.png"></img><img src="./images/weights_png/dgmm_2022/mnist_opening_hstick2.png"></img></td><td><img src="./images/weights_png/dgmm_2022/mnist_opening_dcross1.png"></img><img src="./images/weights_png/dgmm_2022/mnist_opening_dcross2.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/inverted_mnist_opening_disk1.png"></img><img src="./images/weights_png/dgmm_2022/inverted_mnist_opening_disk2.png"></img></td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_opening_hstick1.png"></img><img src="./images/weights_png/dgmm_2022/inverted_mnist_opening_hstick2.png"></img></td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_opening_dcross1.png"></img><img src="./images/weights_png/dgmm_2022/inverted_mnist_opening_dcross2.png"></img></td>
     </tr>
     <tr>
         <td>closing</td>
-        <td><img src="./images/diskorect_closing_disk1.png"></img><img src="./images/diskorect_closing_disk2.png"></img></td><td><img src="./images/diskorect_closing_hstick1.png"></img><img src="./images/diskorect_closing_hstick2.png"></img></td><td><img src="./images/diskorect_closing_dcross1.png"></img><img src="./images/diskorect_closing_dcross2.png"></img></td>
-        <td><img src="./images/mnist_closing_disk1.png"></img><img src="./images/mnist_closing_disk2.png"></img></td><td><img src="./images/mnist_closing_hstick1.png"></img><img src="./images/mnist_closing_hstick2.png"></img></td><td><img src="./images/mnist_closing_dcross1.png"></img><img src="./images/mnist_closing_dcross2.png"></img></td>
-        <td><img src="./images/inverted_mnist_closing_disk1.png"></img><img src="./images/inverted_mnist_closing_disk2.png"></img></td><td><img src="./images/inverted_mnist_closing_hstick1.png"></img><img src="./images/inverted_mnist_closing_hstick2.png"></img></td><td><img src="./images/inverted_mnist_closing_dcross1.png"></img><img src="./images/inverted_mnist_closing_dcross2.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/diskorect_closing_disk1.png"></img><img src="./images/weights_png/dgmm_2022/diskorect_closing_disk2.png"></img></td><td><img src="./images/weights_png/dgmm_2022/diskorect_closing_hstick1.png"></img><img src="./images/weights_png/dgmm_2022/diskorect_closing_hstick2.png"></img></td><td><img src="./images/weights_png/dgmm_2022/diskorect_closing_dcross1.png"></img><img src="./images/weights_png/dgmm_2022/diskorect_closing_dcross2.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/mnist_closing_disk1.png"></img><img src="./images/weights_png/dgmm_2022/mnist_closing_disk2.png"></img></td><td><img src="./images/weights_png/dgmm_2022/mnist_closing_hstick1.png"></img><img src="./images/weights_png/dgmm_2022/mnist_closing_hstick2.png"></img></td><td><img src="./images/weights_png/dgmm_2022/mnist_closing_dcross1.png"></img><img src="./images/weights_png/dgmm_2022/mnist_closing_dcross2.png"></img></td>
+        <td><img src="./images/weights_png/dgmm_2022/inverted_mnist_closing_disk1.png"></img><img src="./images/weights_png/dgmm_2022/inverted_mnist_closing_disk2.png"></img></td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_closing_hstick1.png"></img><img src="./images/weights_png/dgmm_2022/inverted_mnist_closing_hstick2.png"></img></td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_closing_dcross1.png"></img><img src="./images/weights_png/dgmm_2022/inverted_mnist_closing_dcross2.png"></img></td>
     </tr>
 </table>
