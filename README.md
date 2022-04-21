@@ -46,7 +46,9 @@ The same experiment folder as the bimonn will be created.
 
 # Obtained results
 
-## Learned weights
+## Sequential Operations
+
+### Learned weights
 
 <table>
     <tr>
@@ -102,7 +104,7 @@ The same experiment folder as the bimonn will be created.
 </table>
 
 
-## Binarized weights
+### Binarized weights
 
 <table>
     <tr>
