@@ -156,3 +156,78 @@ The same experiment folder as the bimonn will be created.
         <td><img src="./images/binarized_png/dgmm_2022/inverted_mnist_closing_disk1.png"></img><img src="./images/binarized_png/dgmm_2022/inverted_mnist_closing_disk2.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/inverted_mnist_closing_hstick1.png"></img><img src="./images/binarized_png/dgmm_2022/inverted_mnist_closing_hstick2.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/inverted_mnist_closing_dcross1.png"></img><img src="./images/binarized_png/dgmm_2022/inverted_mnist_closing_dcross2.png"></img></td>
     </tr>
 </table>
+
+## Top Hat Results
+
+### Black TopHat
+
+<table>
+    <tr>
+        <td>Dataset</td><td>Selem</td><td>Learned</td><td>Binarized</td>
+    </tr>
+    <tr>
+        <td>Diskorect</td><td>Disk</td><td><img src="./images/weights_png/dgmm_2022/diskorect_black_tophat_disk.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/diskorect_black_tophat_disk.png"></img></td>
+    </tr>
+    <tr>
+        <td>Diskorect</td><td>Stick</td><td><img src="./images/weights_png/dgmm_2022/diskorect_black_tophat_hstick.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/diskorect_black_tophat_hstick.png"></img></td>
+    </tr>
+    <tr>
+        <td>Diskorect</td><td>Cross</td><td><img src="./images/weights_png/dgmm_2022/diskorect_black_tophat_dcross.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/diskorect_black_tophat_dcross.png"></img></td>
+    </tr>
+    <tr>
+        <td>MNIST</td><td>Disk</td><td><img src="./images/weights_png/dgmm_2022/mnist_black_tophat_disk.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/mnist_black_tophat_disk.png"></img></td>
+    </tr>
+    <tr>
+        <td>MNIST</td><td>Stick</td><td><img src="./images/weights_png/dgmm_2022/mnist_black_tophat_hstick.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/mnist_black_tophat_hstick.png"></img></td>
+    </tr>
+    <tr>
+        <td>MNIST</td><td>Cross</td><td><img src="./images/weights_png/dgmm_2022/mnist_black_tophat_dcross.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/mnist_black_tophat_dcross.png"></img></td>
+    </tr>
+    <tr>
+        <td>Inverted MNIST</td><td>Disk</td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_black_tophat_disk.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/inverted_mnist_black_tophat_disk.png"></img></td>
+    </tr>
+    <tr>
+        <td>Inverted MNIST</td><td>Stick</td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_black_tophat_hstick.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/inverted_mnist_black_tophat_hstick.png"></img></td>
+    </tr>
+    <tr>
+        <td>Inverted MNIST</td><td>Cross</td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_black_tophat_dcross.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/inverted_mnist_black_tophat_dcross.png"></img></td>
+    </tr>
+    
+</table>
+
+
+### White TopHat
+
+<table>
+    <tr>
+        <td>Dataset</td><td>Selem</td><td>Learned</td><td>Binarized</td>
+    </tr>
+    <tr>
+        <td>Diskorect</td><td>Disk</td><td><img src="./images/weights_png/dgmm_2022/diskorect_white_tophat_disk.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/diskorect_white_tophat_disk.png"></img></td>
+    </tr>
+    <tr>
+        <td>Diskorect</td><td>Stick</td><td><img src="./images/weights_png/dgmm_2022/diskorect_white_tophat_hstick.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/diskorect_white_tophat_hstick.png"></img></td>
+    </tr>
+    <tr>
+        <td>Diskorect</td><td>Cross</td><td><img src="./images/weights_png/dgmm_2022/diskorect_white_tophat_dcross.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/diskorect_white_tophat_dcross.png"></img></td>
+    </tr>
+    <tr>
+        <td>MNIST</td><td>Disk</td><td><img src="./images/weights_png/dgmm_2022/mnist_white_tophat_disk.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/mnist_white_tophat_disk.png"></img></td>
+    </tr>
+    <tr>
+        <td>MNIST</td><td>Stick</td><td><img src="./images/weights_png/dgmm_2022/mnist_white_tophat_hstick.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/mnist_white_tophat_hstick.png"></img></td>
+    </tr>
+    <tr>
+        <td>MNIST</td><td>Cross</td><td><img src="./images/weights_png/dgmm_2022/mnist_white_tophat_dcross.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/mnist_white_tophat_dcross.png"></img></td>
+    </tr>
+    <tr>
+        <td>Inverted MNIST</td><td>Disk</td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_white_tophat_disk.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/inverted_mnist_white_tophat_disk.png"></img></td>
+    </tr>
+    <tr>
+        <td>Inverted MNIST</td><td>Stick</td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_white_tophat_hstick.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/inverted_mnist_white_tophat_hstick.png"></img></td>
+    </tr>
+    <tr>
+        <td>Inverted MNIST</td><td>Cross</td><td><img src="./images/weights_png/dgmm_2022/inverted_mnist_white_tophat_dcross.png"></img></td><td><img src="./images/binarized_png/dgmm_2022/inverted_mnist_white_tophat_dcross.png"></img></td>
+    </tr>
+    
+</table>
